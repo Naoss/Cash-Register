@@ -1,3 +1,5 @@
+// NOTE: cid stands for cash-in-drawer
+
 function checkCashRegister(price, cash, cid) {
 
 
