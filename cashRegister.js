@@ -21,7 +21,7 @@ function checkCashRegister(price, cash, cid) {
 
   // This is the change due
   var originalChangeDue = cash - price;
-  var changeDue = cash - price;
+  var changeDue = originalChangeDue;
   console.log("the change due is:", changeDue);
 
   // This is the array we push a given currency type and its amount in
